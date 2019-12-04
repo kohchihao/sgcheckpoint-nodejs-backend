@@ -8,7 +8,7 @@ moment.tz.setDefault('Asia/Singapore');
 /* GET home page. */
 router.get('/api/images', (req, res, next) => {
   let options = {
-    uri: 'http://datamall2.mytransport.sg/ltaodataservice/TrafficImages',
+    uri: 'http://datamall2.mytransport.sg/ltaodataservice/Traffic-Images',
     headers: {
       AccountKey: process.env.ACCOUNT_KEY,
       UniqueUserId: process.env.UNIQUE_USER_ID
